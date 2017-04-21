@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+    <h2>My Heroes</h2>
+    <ul class="heroes">
+        <!--
+            one list item for each hero
+            with the class attribute set to value selected when hero is selectedhero
+            click event will trigger the onSelect method passing hero as parameter
+            and each list item will have as a child a
+            <span class="badge"> with hero id in it
+                and outside the span the hero's name will be shown
+        -->
+    </ul>
+    <hero-detail [hero]="selectedHero"></hero-detail>
